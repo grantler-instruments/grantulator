@@ -27,7 +27,7 @@ export function Waveform({ samples, width, height, onPointsChange }: WaveformPro
   const theme = useTheme()
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
-  const rafRef = useRef<number>()
+  const rafRef = useRef<number | undefined>(undefined)
   const pointsByPointerRef = useRef<Map<number, GrainPoint>>(new Map())
   const [size, setSize] = useState({ width: width ?? 0, height: height ?? 0 })
   const fillContainer = width == null || height == null
