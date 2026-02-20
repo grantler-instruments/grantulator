@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Box } from '@mui/material'
+import { WorkInProgressBanner } from '@granter-instruments/muiTheme'
 import { Header } from './components/Header'
 import { Dropzone } from './components/Dropzone'
 import { Waveform } from './components/Waveform'
@@ -49,6 +50,7 @@ function App() {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh', width: '100vw' }}>
+      <WorkInProgressBanner />
       <Header />
       <Box flex={1} sx={{ minHeight: 0, display: 'flex', flexDirection: 'column' }}>
         <Dropzone>

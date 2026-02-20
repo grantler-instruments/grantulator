@@ -14,7 +14,7 @@
     "@elemaudio/web-renderer": "^4.0.3",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@granter-instruments/muiTheme": "github:grantler-instruments/muiTheme",
+    "@granter-instruments/muiTheme": "github:grantler-instruments/muiTheme#main",
     "@mui/icons-material": "^7.3.8",
     "@mui/material": "^7.3.8",
     "react": "^19.2.0",
